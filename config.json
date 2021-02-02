@@ -1,0 +1,27 @@
+{"strava_credentials" : {
+						 "client_id": ,
+						 "client_secret": "",
+						 "temp_code": ""
+						},
+"strava_endpoints" : {
+                      "token_URL" : "https://www.strava.com/oauth/token",
+                      "activities_URL" : "https://www.strava.com/api/v3/activities"					  
+                     },
+"activities_data" : [
+                "id",
+                "name",
+                "start_date_local",
+                "type",
+                "distance",
+                "moving_time",
+                "elapsed_time",
+                "total_elevation_gain",
+                "end_latlng",
+                "external_id",
+                "average_cadence"
+                ],
+"activity_laps_data" : [
+            "activity_id",
+			"id" ],
+"get_laps_for_last_x_activities" : 1
+}
