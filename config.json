@@ -23,5 +23,27 @@
 "activity_laps_data" : [
             "activity_id",
 			"id" ],
-"get_laps_for_last_x_activities" : 1
+"get_laps_for_last_x_activities" : 1,
+"mfp_credentials" : {
+					 "username": "",
+					 "password": ""
+					},
+"get_nutrition_history_from" : { 
+                                "year" : 2021,
+								"month" : 2,
+								"day" : 1
+							   },
+"get_weight_history_from" : { 
+                                "year" : 2021,
+								"month" : 2,
+								"day" : 1
+							   },							   
+"nutrition_data" : ["date",
+                    "calories",
+                    "carbohydrates",
+					"fat",
+					"protein",
+					"sodium",
+					"sugar"
+					]							   
 }
